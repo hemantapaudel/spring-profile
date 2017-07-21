@@ -9,6 +9,9 @@ import org.springframework.context.annotation.Profile;
 
 /**
  * 
+ *Spring 3.1  @Profiles is used to write conditional checking based on Environment variables only. Profiles can be used for loading application
+ *  configuration based on environments.
+ * 
  * We can create bean base on spring.profiles.active like dev,qa,production etc
  *
  * We can enable spring profile active from code or vm option
